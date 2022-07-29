@@ -7,7 +7,9 @@ import javax.persistence.*;
 @Data
 @Table
 @Entity
-public class HelloModel {
+
+public class HelloWorldModel {
+
     @Id
     @Column(name = "id")
     @GeneratedValue
@@ -15,4 +17,7 @@ public class HelloModel {
 
     @Column(name = "message")
     String message;
+
+    @Column(name = "sender")
+    String sender;
 }
