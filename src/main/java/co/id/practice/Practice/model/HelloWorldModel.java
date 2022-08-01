@@ -7,7 +7,6 @@ import javax.persistence.*;
 @Data
 @Table
 @Entity
-
 public class HelloWorldModel {
 
     @Id
